@@ -43,7 +43,7 @@ export default function Home() {
         </FormControl>
         
         <Box display="flex" flexDirection='row' alignItems="center">
-          <Text>Scheduling.work/</Text>
+          <Text p={4}>Scheduling.work/</Text>
           <FormControl id="username" p={4} isRequired>
             <Input type="username" value={formik.values.username} onChange={formik.handleChange} onBlur={formik.handleBlur} />
           </FormControl>
